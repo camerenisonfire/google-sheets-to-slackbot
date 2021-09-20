@@ -1,0 +1,17 @@
+{
+  "name": "google-sheets-to-slackbot",
+  "version": "1.0.0",
+  "description": "Reads from a Google Sheet and posts to Slack via webhook.",
+  "main": "qotd.js",
+  "scripts": {
+    "anniv": "node ./hireAnniversary.js",
+    "qotd": "node ./qotd.js",
+  },
+  "author": "Cameren Dolecheck",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-parser": "^3.0.0",
+    "googleapis": "^39.2.0"
+  }
+}
